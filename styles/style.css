@@ -1,3 +1,72 @@
-*{
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+
+* {
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+ul{
+  padding-inline-start: 0;
+}
+li{
+  list-style: none;
+}
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header */
+header{
+  background: #5D4954;
+}
+.logo{
+  display: inline-block;
+  background: #7D6167;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 700;
+  color: #E6DBD0;
+}
+.header-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1200px) {
+  .container{
+    max-width: 1100px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container{
+    max-width: 920px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container{
+    max-width: 700px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container{
+    max-width: 500px;
+  }
 }
