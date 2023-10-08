@@ -3,18 +3,17 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./styles/style.css" />
-		<title>Lab 2</title>
+		<link rel="stylesheet" href="../styles/style.css" />
+		<title>Доставка</title>
 		<style>
 			.logo {
 				display: inline-block;
 				background: #7d6167;
-				width: 30px;
-				height: 30px;
+				padding: 5px;
 				display: flex;
 				align-items: center;
 				justify-content: center;
-				border-radius: 50%;
+				border-radius: 5px;
 				font-weight: 700;
 				color: #e6dbd0;
 			}
@@ -25,14 +24,13 @@
 		<header id="head">
 			<div class="container">
 				<div class="header-wrapper">
-					<a href="./index.html"><div class="logo">T</div></a>
+					<a href="../index.html"><div class="logo">ProCosmetic</div></a>
 					<nav>
 						<ul>
-							<li><a style="font-weight: 500" href="#head">Головна</a></li>
-							<li><a style="font-weight: 500" href="./pages/about.html">Про нас</a></li>
-							<li><a style="font-weight: 500" href="./pages/products.html">Товари</a></li>
-							<li><a style="font-weight: 500" href="./pages/contacts.html">Контакти</a></li>
-							<li><a style="font-weight: 500" href="./pages/delivery.html">Доставка</a></li>
+							<li><a style="font-weight: 500" href="../index.html">Головна</a></li>
+							<li><a style="font-weight: 500" href="about.html">Про нас</a></li>
+							<li><a style="font-weight: 500" href="products.html">Товари</a></li>
+							<li><a style="font-weight: 500" href="#head">Доставка</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -41,12 +39,39 @@
 		<main>
 			<section>
 				<div class="container">
-					<div class="main-wrapper">
-						<div class="main-content__text">
-							
-						</div>
-						<div>
-							
+					<div class="main-delivery__wrapper">
+						<h2>Доставка</h2>
+						<div class="delivery-content">
+							<table>
+								<thead>
+									<tr>
+										<th>Служба</th>
+										<th>Вартість доставки</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Самовивіз</td>
+										<td>Безкоштовно</td>
+									</tr>
+									<tr>
+										<td>Нова пошта</td>
+										<td>70 грн</td>
+									</tr>
+									<tr>
+										<td>Нова пошта(поштомат)</td>
+										<td>40 грн</td>
+									</tr>
+									<tr>
+										<td>Укр пошта</td>
+										<td>50 грн</td>
+									</tr>
+									<tr>
+										<td>Meest</td>
+										<td>60 грн</td>
+									</tr>
+								</tbody>
+							</table>
 						</div>
 					</div>
 				</div>
@@ -55,6 +80,12 @@
 		<footer>
 			<div class="container">
 				<div class="footer-wrapper">
+					<div class="contacts">
+						<h4>Контакти</h4>
+						<span>procosmetic@gmail.com</span>
+						<span>+38(057)-13-95-627</span>
+					</div>
+					<hr>
 					<p>© 2023. All Rights Reserved.</p>
 				</div>
 			</div>
